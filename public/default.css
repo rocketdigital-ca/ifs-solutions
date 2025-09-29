@@ -1,0 +1,288 @@
+@import "outputmenusettings.css";
+@import "clearmenu.css";
+
+/************************************************************/
+/* Base Styles                                              */
+/************************************************************/
+body {
+  background-color: #ffffff;
+  font-family: Arial, Tahoma;
+}
+
+#BaseRegion {
+  width: 900px;
+  margin: auto;
+}
+
+#BaseRegion blockquote {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  margin-left: 15px !important;
+}
+
+#BaseRegion h1 {
+  font-size: 20px !important;
+  margin: 0px;
+}
+
+#BaseRegion h2 {
+  font-size: 160% !important;
+  margin: 0px;
+}
+
+#BaseRegion h3 {
+  font-size: 145% !important;
+  margin: 0px;
+}
+
+#BaseRegion h4 {
+  font-size: 125% !important;
+  margin: 0px;
+}
+
+#BaseRegion h5 {
+  font-size: 110% !important;
+  margin: 0px;
+}
+
+#BaseRegion h6 {
+  font-size: 90% !important;
+  margin: 0px;
+}
+
+.LeftShadow {
+  background: #ffffff url(assets/leftshadow.gif) repeat-y;
+  width: 50px;
+}
+
+.RightShadow {
+  background: #ffffff url(assets/rightshadow.gif) repeat-y;
+  width: 50px;
+}
+
+/************************************************************/
+/* HeaderRgn Styles											*/
+/************************************************************/
+#HeaderRgn td {
+  color: #000000;
+}
+
+#HeaderRgn {
+  width: 100%;
+  height: 46px;
+  _height: 46px;
+  max-height: 46px;
+  min-height: 46px;
+  overflow: hidden;
+  background-color: #cccccc;
+}
+
+#HeaderRgn .EditorPanel {
+  font-family: Arial, Tahoma;
+  color: #000000;
+
+  height: 46px;
+  _height: 46px;
+  min-height: 46px;
+  min-height: 46px;
+  overflow: hidden;
+}
+
+#HeaderRgn .EditorPanel ul,
+#HeaderRgn .EditorPanel ul li,
+#HeaderRgn .EditorPanel ol,
+#HeaderRgn .EditorPanel ol li {
+  padding: 0px !important;
+  margin: 0px 0px 0px 15px !important;
+}
+
+/* END: HeaderRgn Styles */
+
+/************************************************************/
+/* MenuRgn Styles											*/
+/************************************************************/
+
+#MenuRgn {
+  width: 100%;
+  height: 37px;
+  _height: 37px;
+  background-color: #788387;
+}
+
+#MenuRgn .MenuEditorPanel {
+  height: 37px;
+}
+
+/************************************************************/
+/* BodyRgn Styles											*/
+/************************************************************/
+
+#BodyRgn {
+  width: 100%;
+}
+
+#BodyRgn td {
+  font-family: Arial, Tahoma;
+  font-size: 10px;
+  color: #000000;
+}
+
+#BodyRgn .EditorPanel {
+  font-family: Arial, Tahoma;
+  font-size: 11px;
+}
+
+#BodyRgn .EditorPanel a {
+  color: #006699;
+  text-decoration: none;
+}
+
+#BodyRgn .EditorPanel a:hover {
+  color: #990000;
+  text-decoration: underline;
+}
+
+#BodyRgn .EditorPanel ul,
+#BodyRgn .EditorPanel ul li,
+#BodyRgn .EditorPanel ol,
+#BodyRgn .EditorPanel ol li,
+#BodyRgn .EditorPanelImage ul,
+#BodyRgn .EditorPanelImage ul li,
+#BodyRgn .EditorPanelImage ol,
+#BodyRgn .EditorPanelImage ol li {
+  padding: 0px !important;
+  margin: 0px 0px 0px 15px !important;
+}
+
+#BodyRgn .LeftRailWrapper {
+  width: 253px;
+  /* background-image: url(images/vertline.gif); */
+  /* background-repeat:repeat-y; */
+  /* background-position: right; */
+  background-color: #006699;
+  padding: 0px 0px 0px 0px;
+  font-family: Arial, Tahoma;
+  font-size: 11px;
+  color: #ffffff;
+}
+
+#BodyRgn .LeftRailWrapper .EditorPanel {
+  width: 253px;
+  height: auto;
+  _height: 200px;
+  min-height: 200px;
+  overflow-x: hidden;
+  color: #ffffff;
+}
+
+#BodyRgn .LeftRailWrapper .EditorPanel a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#BodyRgn .LeftRailWrapper .EditorPanel a:hover {
+  color: #d0d0d0;
+  text-decoration: underline;
+}
+
+#BodyRgn .MainPanelWrapper {
+  width: 547px;
+  padding: 0px 15px 0px 15px;
+  font-family: Arial, Tahoma;
+  font-size: 11px;
+  color: #000000;
+}
+
+#BodyRgn .MainPanelWrapper .EditorPanel {
+  width: 517px;
+  height: auto;
+  _height: 200px;
+  min-height: 200px;
+  overflow-x: hidden;
+  color: #000000;
+}
+
+/* END: BodyRgn Styles */
+
+/************************************************************/
+/* FooterRgn Styles											*/
+/************************************************************/
+
+#FooterRgn {
+  width: 100%;
+  height: auto;
+  min-height: 20px;
+  _height: 20px;
+  background-color: #cccccc;
+}
+
+#FooterRgn .EditorPanel {
+  height: auto;
+  _height: 20px;
+  min-height: 20px;
+  font-family: Arial, Tahoma;
+  font-size: 11px;
+  padding: 5px;
+  color: #202020;
+}
+
+#FooterRgn .EditorPanel a {
+  color: #006699;
+  text-decoration: none;
+}
+
+#FooterRgn .EditorPanel a:hover {
+  text-decoration: underline;
+}
+
+#FooterRgn .EditorPanel ul,
+#FooterRgn .EditorPanel ul li,
+#FooterRgn .EditorPanel ol,
+#FooterRgn .EditorPanel ol li {
+  padding: 0px !important;
+  margin: 0px 0px 0px 15px !important;
+}
+
+/* END: FooterRgn Styles */
+
+#LoginLink,
+#LoginLink a {
+  width: 800px;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 11px !important;
+  font-family: Arial, Tahoma, Verdana !important;
+  color: #c0c0c0 !important;
+  text-decoration: none !important;
+}
+
+#LoginLink a:hover {
+  text-decoration: underline !important;
+  color: #c0c0c0;
+}
+
+/************************************************************/
+/* WTPPowerByLink Styles                                    */
+/************************************************************/
+
+#WTPPowerByLink {
+  width: 800px;
+  margin: auto;
+  color: #000000;
+  font-size: 10px;
+  font-family: Arial;
+  margin-top: 10px;
+  text-align: right;
+  display: none;
+}
+
+#WTPPowerByLink a {
+  color: #000000;
+  font-size: 10px;
+  font-family: Arial;
+  text-decoration: underline !important;
+}
+
+#WTPPowerByLink a:hover {
+  text-decoration: underline !important;
+}

@@ -1,0 +1,11 @@
+﻿.sf-menu li {
+  height: 30px;
+  line-height: 30px;
+}
+
+.sf-menu li li {
+  background: white;
+  border: 1px solid #eee;
+  padding: 5px;
+  text-align: left;
+}
